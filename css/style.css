@@ -1,20 +1,17 @@
 @charset "UTF-8"
 /* CSS Document */
 
-;body {
+;html, body {
   display: flex;
   justify-content: center;
   align-items: center;
   background: url('../img/wow.png') bottom center no-repeat;
-  background-size: cover;
+  background-size: auto;
   font-size: 1em;
+  height: 100%;
+  margin: 0;
 }
   
-
-img #bacground {
-    max-width: 100%;
-    height: auto;
-}
 
 .centered { 
   padding: 0 3.125em;
